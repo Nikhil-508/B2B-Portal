@@ -1,31 +1,4 @@
-// import React from 'react'
-// import Navlogo from '../Assets/navlogo.png'
-// import UserIcon from '../Assets/UserIcon.png'
-// import { Link } from 'react-router-dom'
 
-// const Navbar = () => {
-//   return (
-//         <div className='w-[100%]'>
-//             <div className='bg-slate-50 relative h-[60px]'>
-//                 <ul className='flex flex-row justify-start pl-[15rem] py-5 gap-10 text-slate-500  font-[outfit] font-sm'>
-//                     <img className='w-28' src={Navlogo} alt="" />
-//                     <li><a href="#">Home</a></li>
-//                     <li><a href="#">About</a></li>
-//                     <li><a href="#">Blog</a></li>
-//                     <li><a href="#">Get the app</a></li>
-//                     <li><a href="#">Add lab</a></li>
-//                     <li><Link to='/dashboard'>Dashboard</Link></li>
-//                 </ul>
-//                 <div className='flex absolute top-2 right-32 gap-4 w-[50px] h-[45px]'>
-//                     <h1><a href="">Login/sign up</a></h1>
-//                     <img src={UserIcon} alt="" />
-//                 </div>
-//             </div>
-//         </div>
-//   )
-// }
-
-// export default Navbar
 
 
 import React, { useState } from 'react';

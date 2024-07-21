@@ -40,15 +40,15 @@ const Login = () => {
       <div className='flex items-center justify-center'>
           <img className=' relative w-[100%] h-[729px]' src={backgroundImage} alt="bgImage" />
           <div className='absolute top-50 left-50 rounded-[45px] bg-slate-100 w-[485px] h-[600px] '>
-              <img className='w-6 absolute left-10 top-10' src={vector} alt="" />
-              <img className='w-13 absolute left-50 bottom-10' src={vector} alt="" />
+              <img className='w-6 absolute left-14 top-10' src={vector} alt="" />
+              <img className='w-13 absolute left-2 bottom-10' src={vector} alt="" />
               <img className='w-10 absolute right-10 top-20' src={vector} alt="" />
               <div className='flex flex-col items-center pt-8'>
-                  <h1>logo</h1>
-                  <h1 className='color-[#1e1b4b]'>Report Download portal</h1>
+                  <h1 className='text-[#1F6CAB] font-semibold'>Zinfog</h1>
+                  <h1 className='text-[#211a81] font-bold pt-8'>Report Download portal</h1>
               </div>
-              <div className='relative rounded-[20px] mx-20 my-20 h-[282px] bg-[#00D3EB]'>
-                  <h1 className='pl-[20px] text-lg font-bold font-outfit px-'>Login</h1>
+              <div className='relative rounded-[20px] mx-20 my-10 h-[290px] bg-[#00D3EB]'>
+                  <h1 className='pl-28  pt-4 text-lg font-semibold font-outfit text-[#1F6CAB]'>Login</h1>
 
                   <form onSubmit={handleSubmit} className='font-[outfit]  text-[#505050] flex flex-col justify-center px-8 py-3  '>
                       <label className='pt-[18px] ' htmlFor="username">Username</label>
@@ -72,12 +72,12 @@ const Login = () => {
                           onChange={(e) => setPassword(e.target.value)}
                       />
 
-                      <button type='submit' className='rounded-[3px] mx-18 bg-[#1F6CAB] text-white mt-5'>
+                      <button type='submit' className='rounded-[3px] mx-16 bg-[#1F6CAB] text-white mt-5'>
                         SUBMIT
                       </button>
                   </form>
 
-                  <a className='text-sm font-semibold pl-[102px] mt-[10px]' href="/resetPassword">Reset password</a>
+                  <a className='text-sm font-semibold pl-28 mt-[10px] underline' href="/resetPassword">Reset password</a>
                   <p className=' text-red-600  text-sm font-semibold pl-[102px] mt-[12px]'>{error}</p>
               </div>
           </div>
