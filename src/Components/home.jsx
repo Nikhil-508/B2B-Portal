@@ -182,8 +182,8 @@ const Home = () => {
       <div className='pt-2'>
         <img className='w-[100%]' src={Tests} alt="" />
       </div>
-      <div className="w-full max-w-md mx-auto">
-        <img src={work} alt="" className="w-full h-auto object-cover" />
+      <div >
+        <img src={work} alt="" className="w-[100%] h-[420px] px-12 pt-3 pb-3" />
       </div>
 
       <div className='bg-[#F5F7F8]'>
