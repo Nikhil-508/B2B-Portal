@@ -153,7 +153,7 @@ const Dashboard = () => {
 
             <table className="table-auto font-[outfit] w-full bg-[#FFFFFF]">
                 <thead>
-                    <tr className="bg-gray-100 text-gray-600 text-left uppercase font-medium">
+                    <tr className="border-b border-black text-gray-600 text-left uppercase font-medium">
                         <th className="py-3 px-6">Order No</th>
                         <th className="py-3 px-6">Date</th>
                         <th className="py-3 px-6">Patient Name</th>
